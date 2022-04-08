@@ -64,3 +64,21 @@ function areaCirculo(radio){
 //console.log("El area del circulo es: "+areaCirculo)
 
 console.groupEnd();
+
+
+// Interaccion con el DOM HTML
+function calcularPerimetroCuadrado(){
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;//Obtiene valor de escritura
+
+    const perimetro = perimetroCuadrado(value);
+    return alert(perimetro)
+}
+
+function calcularAreaCuadrado(){
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;//Obtiene valor de escritura
+
+    const area = areaCuadrado(value);
+    return alert(area)
+}
