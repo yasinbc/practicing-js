@@ -58,8 +58,8 @@ function perimetroCirculo(diametro){
 }
 //console.log("El perimetro del Circulo es: "+perimetroCirculo);
 
-function areaCirculo(){
-    return (radio*radio)*Math.PI;
+function areaCirculo(radio){
+    return (radio*radio) * Math.PI;
 }
 //console.log("El area del circulo es: "+areaCirculo)
 
