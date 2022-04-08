@@ -41,20 +41,26 @@ console.groupEnd();
 //Codigo del circulo
 console.group("Circulos");
 
-const radioCirculo = 4;
-console.log("El radio del circulo es: "+radioCirculo+"cm")
+// function radioCirculo = 4;
+// console.log("El radio del circulo es: "+radioCirculo+"cm")
 
 
-const diametroCirculo = radioCirculo*2;
-console.log("El diametro del circulo es: "+diametroCirculo);
+function diametroCirculo(radio){
+    return radio * 2;
+}
+// console.log("El diametro del circulo es: "+diametroCirculo);
 
-const PI = Math.PI;
-console.log("PI es: "+PI);
+// const PI = Math.PI;
+// console.log("PI es: "+PI);
 
-const perimetroCirculo = diametroCirculo * PI;
-console.log("El perimetro del Circulo es: "+perimetroCirculo);
+function perimetroCirculo(diametro){
+    return diametro * Math.PI;
+}
+//console.log("El perimetro del Circulo es: "+perimetroCirculo);
 
-const areaCirculo = (radioCirculo**2)*PI;
-console.log("El area del circulo es: "+areaCirculo)
+function areaCirculo(){
+    return (radio*radio)*Math.PI;
+}
+//console.log("El area del circulo es: "+areaCirculo)
 
 console.groupEnd();
