@@ -12,11 +12,11 @@ function areaCuadrado(lado){
     return lado * lado;
 } 
 //console.log("El área del cuadrado es: "+ areaCuadrado+"cm^2");
-//console.groupEnd();
+console.groupEnd();
 
 
 //Codigo del triangulo
-// console.group("Triangulos");
+ console.group("Triangulos");
 // const ladoTriangulo1 = 6;
 // const ladoTriangulo2 = 6;
 // const baseTriangulo = 6;
